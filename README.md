@@ -1,6 +1,6 @@
-#  Visual Fashion Recommendation System
+# Visual Fashion Recommendation System
 
-##  Overview
+## Overview
 A deep learning–based visual fashion recommendation system that analyzes clothing images, extracts key attributes, and retrieves visually similar products from a large catalog.  
 The system supports both **image-based** and **text-based** queries for an enhanced fashion discovery experience.
 
@@ -13,7 +13,13 @@ The system enables **real-time**, intelligent recommendations suitable for e-com
 
 ---
 
-##  Core Components
+## Dataset
+The dataset used in this project can be found on Kaggle:  
+[Fashion Product Images Small](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small)
+
+---
+
+## Core Components
 
 ### 🔹 Attribute Recognition
 - Twin **ResNet50** models to predict garment **color** and **category**.
@@ -27,14 +33,14 @@ The system enables **real-time**, intelligent recommendations suitable for e-com
 
 ---
 
-##  Key Innovations
+## Key Innovations
 - **Automated Tagging**: Eliminates the need for manual product labeling using CNN models.  
 - **Hybrid Filtering**: Combines attribute matching and visual similarity for high-quality recommendations.  
 - **Deployment-Ready**: Complete end-to-end pipeline designed for real-time inference.
 
 ---
 
-##  Applications
+## Applications
 - “**Shop-the-Look**” features for e-commerce  
 - **Visually similar** product suggestions  
 - Fashion **catalog management**  
@@ -42,12 +48,9 @@ The system enables **real-time**, intelligent recommendations suitable for e-com
 
 ---
 
-##  Technologies Used
+## Technologies Used
 - **Python**  
 - **TensorFlow**  
 - **OpenCV**  
 - **FAISS**  
 - **Scikit-learn**  
-
----
-
